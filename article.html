@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article - The Hacker News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="bg-blue-text-900 text-blue-text-400 py-1">
+            <div class="container d-flex align-items-center justify-content-between fs-14">
+                <p class="mb-0">#1 Trusted Cybersecurity News Platform</p>
+                <div class="d-flex align-items-center">
+                    <p class="mb-0 d-none d-md-block">Followed by 4.50+ million</p>
+                    <a href="#" class="text-blue-text-400 ms-4"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-blue-text-400 ms-4"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="text-blue-text-400 ms-4"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue-text-800 py-3">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo">
+                </a>
+                <div class="d-none d-md-block">
+                    <form class="d-flex">
+                        <a href="#email" class="btn btn-yellow">
+                            <i class="fa-solid fa-envelope"></i> Subscribe - Get Latest News
+                        </a>
+                    </form>
+                </div>
+                <ul class="d-flex align-items-center list-unstyled d-md-none">
+                    <li><a class="text-white px-3" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="text-white px-3" href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-bottom border-gray">
+            <nav class="container d-none d-md-flex align-items-center justify-content-between">
+                <ul id="navigation" class="d-flex align-items-center list-unstyled mb-0 py-3">
+                    <li><a class="text-dark py-3" href="#">Home</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Data Breaches</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Cyber Attacks</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Vulnerabilities</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Webinars</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Store</a></li>
+                    <li><a class="text-dark px-3 py-3" href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="d-flex align-items-center list-unstyled mb-0">
+                    <li><a class="text-dark px-3" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="text-dark px-3" href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="d-block d-md-none w-100">
+            <ul class="list-unstyled d-flex w-100 align-items-center">
+                <li class="border border-gray w-100 text-center py-2"><a href="#" class="text-secondary"><i class="fas fa-home"></i> Home</a></li>
+                <li class="text-center border border-gray w-100 py-2"><a href="#" class="text-secondary"><i class="fas fa-envelope"></i> Newsletter</a></li>
+                <li class="text-center border border-gray w-100 py-2"><a href="#" class="text-secondary"><i class="fas fa-shopping-cart"></i> Webinars</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="nav-modal" class="position-absolute top-0 start-0 w-100 h-100 zindex-5 d-none overflow-auto">
+        <div class="container">
+            <i id="close" class="fa-solid fa-2x fa-xmark position-absolute top-20 end-0 me-4 pointer"></i>
+        </div>
+        <div class="columns mt-3 mb-5">
+            <div class="column">
+                <h3>Resources</h3>
+                <a href="#">Webinars</a>
+                <a href="#">THN Store</a>
+                <a href="#">Free eBooks</a>
+            </div>
+            <div class="column">
+                <h3>About Site</h3>
+                <a href="#">About THN</a>
+                <a href="#">Jobs</a>
+                <a href="#">Advertise with us</a>
+            </div>
+        </div>
+        <div class="contact container mb-5">
+            <h3>Contact/Tip Us</h3>
+            <div class="d-flex align-items-center">
+                <div class="round">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <a class="contact-txt" href="#">Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback!</a>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Follow Us On Social Media</h3>
+        </div>
+        <div class="social-icons container mb-5">
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/facebook.png" alt="Facebook"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/twitter.png" alt="Twitter"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/linkedin.png" alt="LinkedIn"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/youtube.png" alt="YouTube"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new.png" alt="Instagram"></a>
+        </div>
+        <div class="bottom-links container">
+            <a class="btn btn-muted" href="#"><i class="fa-solid fa-rss mx-1"></i> RSS Feeds</a>
+            <a class="btn btn-muted" href="#"><i class="fa-solid fa-envelope mx-1"></i> Email Alerts</a>
+            <a class="btn btn-muted" href="#"><i class="fab fa-telegram mx-1"></i> Telegram Channel</a>
+        </div>
+    </div>
+   <main class="container py-3">
+        <h1 class="fw-bold fs-2 text-2B384E w-90 d-block mt-4">New PHP Vulnerability Exposes Windows Servers to Remote Code Execution</h1>
+        <div class="d-flex">
+            <div class="border-0 mb-3 w-75 w-md-100 me-4">
+                <div class="d-flex py-1 justify-content-between align-items-center mt-3">
+                    <div class="d-flex">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-calendar text-secondary fs-14"></i>
+                            <span class="fs-14 text-secondary ms-1">Jun 07, 2024</span>
+                        </div>
+                        <div class="d-flex align-items-center ms-3">
+                            <i class="fas fa-user text-secondary fs-14"></i>
+                            <span class="fs-14 text-secondary ms-1">The Hacker News</span>
+                        </div>
+                    </div>
+                    <div class=" fs-14 text-secondary">
+                        Vulnerability / Programming
+                    </div>
+                </div>
+
+                <div class="row g-0 align-items-start ">
+                  <img src="assets/images/php.png" class="img-fluid rounded mt-2" alt="php">
+                  <div class="mt-2 content">
+                    <h3>Staying Sharp: Cybersecurity CPEs Explained</h3>
+                    <p>Perhaps even more so than in other professional domains, cybersecurity professionals constantly face new threats. To ensure you stay on top of your game, many certification programs require earning Continuing Professional Education (CPE) credits. CPEs are essentially units of measurement used to quantify the time and effort professionals spend on maintaining and enhancing skills and knowledge in the field of cybersecurity, and they act as points that demonstrate a commitment to staying current.</p>
+                    <p>CPEs are best understood in terms of other professions: just like medical, legal and even CPA certifications require continuing education to stay up-to-date on advancements and industry changes, cybersecurity professionals need CPEs to stay informed about the latest hacking tactics and defense strategies.</p>
+                    <p>CPE credits are crucial for maintaining certifications issued by various cybersecurity credentialing organizations, such as (ISC)², ISACA, and CompTIA. Earning CPEs involves various activities like attending workshops, taking online courses, or participating in conferences.
+                    </p>
+                    <p>The overriding goal of CPEs is to ensure that certified professionals stay current with the latest trends, technologies, and threats in cybersecurity – thus maintaining the integrity and relevance of their certifications. And beyond ensuring that we stay sharp, CPEs ultimately strengthen an organization's overall security posture. It's a win-win for both professionals and their organizations.</p>
+                    <h3>Why Cybersecurity Pros Need CPEs</h3>
+                    <p>The cybersecurity landscape is a constant arms race. To stay relevant and advance their careers, cybersecurity professionals need Continuing Professional Education (CPEs). And CPEs aren't just about career advancement; they directly impact job performance.</p>
+                    <p>From a personal standpoint, CPEs are like working with a trainer at your gym. They help you level up your professional fitness, equipping you with the latest knowledge and skills in areas like exposure management, penetration testing or cloud security. This makes you a stronger, more valuable asset to any organization, opening doors to promotions and higher-paying opportunities.</p>
+                    <p>Professionally, CPEs are like attending battle drills. They keep you sharp against constantly-evolving cyber threats. By learning about new hacking techniques and defensive strategies, you can better protect your organization's data and systems. This reduces the risk of costly breaches and demonstrates your commitment to excellence.</p>
+                    <p>CPEs are an investment in both your career and your ability to perform at the top of your game. They make you a more valuable professional and a stronger defender against cyber threats.</p>
+                    <h3>Tracking Your Progress: Demystifying Cybersecurity CPEs</h3>
+                    <p>Earning CPEs demonstrates your commitment to staying current. But how do you track your progress?</p>
+                    <p>Most certifying bodies require a certain number of CPE credits to be earned within a specific period, usually annually or over a multi-year cycle. For example, (ISC)² requires Certified Information Systems Security Professional (CISSP) holders to earn 120 CPE credits every three years.</p>
+                    <p>CPE calculation generally revolves around two main factors: time spent and activity type. Most activities award CPEs based on the hours invested. For example, attending a security conference might earn you 8 CPEs, while an online course might grant 1 CPE per hour of completion.</p>
+                  </div>
+                  <hr>
+                  <p id="sidebar-text" class="fw-bold text-2B384E fs-5">Breaking News</p>
+                  <div class="row">
+                        <div class="col-6 col-md-3">
+                            <div class="grid-item">                  
+                                <a href="article.html" class="card border-0">
+                                    <img src="assets/images/net.png" alt="net" />
+                                    <h3 class="text-2B384E fs-17 fw-bold my-2 mb-4">Cybersecurity CPEs: Unraveling the What, Why & How...</h3>
+                                    <p class="fs-13 text-2B384E">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolores sit voluptates unde cupiditate cumque error inventore deserunt iusto totam exercitationem quis odit maxime accusamus.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="grid-item">                  
+                                <a href="article.html" class="card border-0">
+                                    <img src="assets/images/net.png" alt="net" />
+                                    <h3 class="text-2B384E fs-17 fw-bold my-2 mb-4">Cybersecurity CPEs: Unraveling the What, Why & How...</h3>
+                                    <p class="fs-13 text-2B384E">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolores sit voluptates unde cupiditate cumque error inventore deserunt iusto totam exercitationem quis odit maxime accusamus.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="grid-item">                  
+                                <a href="article.html" class="card border-0">
+                                    <img src="assets/images/net.png" alt="net" />
+                                    <h3 class="text-2B384E fs-17 fw-bold my-2 mb-4">Cybersecurity CPEs: Unraveling the What, Why & How...</h3>
+                                    <p class="fs-13 text-2B384E">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolores sit voluptates unde cupiditate cumque error inventore deserunt iusto totam exercitationem quis odit maxime accusamus.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="grid-item">                  
+                                <a href="article.html" class="card border-0">
+                                    <img src="assets/images/net.png" alt="net" />
+                                    <h3 class="text-2B384E fs-17 fw-bold my-2 mb-4">Cybersecurity CPEs: Unraveling the What, Why & How...</h3>
+                                    <p class="fs-13 text-2B384E">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolores sit voluptates unde cupiditate cumque error inventore deserunt iusto totam exercitationem quis odit maxime accusamus.</p>
+                                </a>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <div class="w-25 d-md-block d-none">
+                <div class=" mt-4">
+                    <p id="sidebar-text" class="fw-bold text-2B384E fs-5">Trending News</p>
+                    <a href="article.html" class="d-flex mt-4">
+                        <img src="assets/images/net.png" alt="net">
+                        <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                    </a>
+                    <a href="article.html" class="d-flex mt-4">
+                        <img src="assets/images/net.png" alt="net">
+                        <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                    </a>
+                    <a href="article.html" class="d-flex mt-4">
+                        <img src="assets/images/net.png" alt="net">
+                        <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                    </a>
+                    <a href="article.html" class="d-flex mt-4">
+                        <img src="assets/images/net.png" alt="net">
+                        <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                    </a>
+    
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container my-5">
+        <div class="subscribe-section">
+            <h2>Get Latest News in Your Inbox!</h2>
+            <p class="w-50 w-md-100 mx-auto py-4">Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.</p>
+            <form class="row g-0 justify-content-center ">
+                <div class="col-auto position-relative w-50 w-md-100">
+                    <input type="email" class="form-control" placeholder="Your e-mail address" required>
+                    <button type="submit" class="btn btn-primary position-absolute top-0 end-0">
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="border-top border-gray pt-4 mt-5">
+        <div class="text-center">
+            <span class="fw-bold text-2B384E fs-5">Connect with us!</span>
+        </div>
+        <div class="container d-flex align-items-center justify-content-between mt-4">
+            <a href="#" class="text-center text-white">
+                <div class="bg-twitter d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="text-secondary d-none d-md-block">221,153 followers</div>
+            </a>
+            <a href="#" class="text-center text-white">
+                <div class="bg-linkedin d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="text-secondary d-none d-md-block">221,153 followers</div>
+            </a>
+            <a href="#" class="text-center text-white">
+                <div class="bg-youtube d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="text-secondary d-none d-md-block">221,153 followers</div>
+            </a>
+            <a href="#" class="text-center text-white">
+                <div class="bg-instagram d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="text-secondary d-none d-md-block">221,153 followers</div>
+            </a>
+            <a href="#" class="text-center text-white">
+                <div class="bg-facebook d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+                    <i class="fab fa-facebook"></i>
+                </div>
+                <div class="text-secondary d-none d-md-block">221,153 followers</div>
+            </a>
+            <a href="#" class="text-center text-white">
+                <div class="bg-telegram d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+                    <i class="fab fa-telegram"></i>
+                </div>
+                <div class="text-secondary d-none d-md-block">221,153 followers</div>
+            </a>
+        </div>
+        <div id="footer-nav" class="container d-flex align-items-center justify-content-between mt-5">
+            <ul class="list-unstyled w-md-50">
+                <p class="fw-bold mb-0">Company</p>
+                <li class="mt-1"><a href="#" class="text-secondary">About THN</a></li>
+                <li class="mt-1"><a href="#" class="text-secondary">Advertise with us</a></li>
+                <li class="mt-1"><a href="contact.html" class="text-secondary">Contact</a></li>
+            </ul>
+            <ul class="list-unstyled w-md-50">
+                <p class="fw-bold mb-0">Pages</p>
+                <li class="mt-1"><a href="#" class="text-secondary">Webinars</a></li>
+                <li class="mt-1"><a href="#" class="text-secondary">Deals Store</a></li>
+                <li class="mt-1"><a href="#" class="text-secondary">Privacy Policy</a></li>
+            </ul>
+            <ul class="list-unstyled d-none d-md-block">
+                <p class="fw-bold mb-0">Deals</p>
+                <li class="mt-1"><a href="#" class="text-secondary">Hacking</a></li>
+                <li class="mt-1"><a href="#" class="text-secondary">Development</a></li>
+                <li class="mt-1"><a href="#" class="text-secondary">Android</a></li>
+            </ul>
+            <ul class="list-unstyled d-none d-md-block">
+                <li><a href="#" class="text-secondary"><i class="fa-solid fa-rss"></i> RSS Feeds</a></li>
+                <li class="mt-4"><a href="contact.html" class="text-secondary"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            </ul>
+        </div>
+        <ul class="list-unstyled d-md-none d-block">
+            <li class="mt-4 ms-4"><a href="contact.html" class="text-secondary"><i class="fas fa-envelope"></i> Contact Us</a></li>
+        </ul>
+        <div class="text-left border-top border-gray container mt-3">
+            <span class="text-muted fs-13">Copyright © 2021 The Hacker News. All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

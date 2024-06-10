@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home - The Hacker News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="bg-blue-text-900 text-blue-text-400 py-1">
+            <div class="container d-flex align-items-center justify-content-between fs-14">
+                <p class="mb-0">#1 Trusted Cybersecurity News Platform</p>
+                <div class="d-flex align-items-center">
+                    <p class="mb-0 d-none d-md-block">Followed by 4.50+ million</p>
+                    <a href="#" class="text-blue-text-400 ms-4"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-blue-text-400 ms-4"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="text-blue-text-400 ms-4"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue-text-800 py-3">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo">
+                </a>
+                <div class="d-none d-md-block">
+                    <form class="d-flex">
+                        <a href="#email" class="btn btn-yellow">
+                            <i class="fa-solid fa-envelope"></i> Subscribe - Get Latest News
+                        </a>
+                    </form>
+                </div>
+                <ul class="d-flex align-items-center list-unstyled d-md-none">
+                    <li><a class="text-white px-3" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="text-white px-3" href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-bottom border-gray">
+            <nav class="container d-none d-md-flex align-items-center justify-content-between">
+                <ul id="navigation" class="d-flex align-items-center list-unstyled mb-0 py-3">
+                    <li><a class="text-dark py-3" href="#">Home</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Data Breaches</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Cyber Attacks</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Vulnerabilities</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Webinars</a></li>
+                    <li><a class="text-dark px-3 py-3" href="#">Store</a></li>
+                    <li><a class="text-dark px-3 py-3" href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="d-flex align-items-center list-unstyled mb-0">
+                    <li><a class="text-dark px-3" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="text-dark px-3" href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="d-block d-md-none w-100">
+            <ul class="list-unstyled d-flex w-100 align-items-center">
+                <li class="border border-gray w-100 text-center py-2"><a href="#" class="text-secondary"><i class="fas fa-home"></i> Home</a></li>
+                <li class="text-center border border-gray w-100 py-2"><a href="#" class="text-secondary"><i class="fas fa-envelope"></i> Newsletter</a></li>
+                <li class="text-center border border-gray w-100 py-2"><a href="#" class="text-secondary"><i class="fas fa-shopping-cart"></i> Webinars</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="nav-modal" class="position-absolute top-0 start-0 w-100 h-100 zindex-5 d-none overflow-auto">
+        <div class="container">
+            <i id="close" class="fa-solid fa-2x fa-xmark position-absolute top-20 end-0 me-4 pointer"></i>
+        </div>
+        <div class="columns mt-3 mb-5">
+            <div class="column">
+                <h3>Resources</h3>
+                <a href="#">Webinars</a>
+                <a href="#">THN Store</a>
+                <a href="#">Free eBooks</a>
+            </div>
+            <div class="column">
+                <h3>About Site</h3>
+                <a href="#">About THN</a>
+                <a href="#">Jobs</a>
+                <a href="#">Advertise with us</a>
+            </div>
+        </div>
+        <div class="contact container mb-5">
+            <h3>Contact/Tip Us</h3>
+            <div class="d-flex align-items-center">
+                <div class="round">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <a class="contact-txt" href="#">Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback!</a>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Follow Us On Social Media</h3>
+        </div>
+        <div class="social-icons container mb-5">
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/facebook.png" alt="Facebook"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/twitter.png" alt="Twitter"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/linkedin.png" alt="LinkedIn"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/youtube.png" alt="YouTube"></a>
+            <a class="me-3 round-outline" href="#"><img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new.png" alt="Instagram"></a>
+        </div>
+        <div class="bottom-links container">
+            <a class="btn btn-muted" href="#"><i class="fa-solid fa-rss mx-1"></i> RSS Feeds</a>
+            <a class="btn btn-muted" href="#"><i class="fa-solid fa-envelope mx-1"></i> Email Alerts</a>
+            <a class="btn btn-muted" href="#"><i class="fab fa-telegram mx-1"></i> Telegram Channel</a>
+        </div>
+    </div>
+     <main class="container py-3 d-flex">
+        <div class="border-0 mb-3 w-75 w-md-100">
+            <div class="row g-0 align-items-start mt-4">
+              <a href="article.html" class="col-md-4">
+                <img src="assets/images/php.png" class="img-fluid rounded" alt="php">
+              </a>
+              <div class="col-md-8">
+                <div class="card-body py-0 padd-md-0">
+                  <a href="article.html" class="card-title fs-17 text-2B384E w-90 d-block">New PHP Vulnerability Exposes Windows Servers to Remote Code Execution</a>
+                  <div class="d-flex py-2">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-calendar text-secondary fs-14"></i>
+                        <span class="fs-14 text-secondary ms-1">Jun 07, 2024</span>
+                    </div>
+                    <div class="ms-4 fs-14 text-secondary">
+                        Vulnerability / Programming
+                    </div>
+                  </div>
+                  <p class="card-text  fs-14 text-secondary w-90">Details have emerged about a new critical security flaw impacting PHP that could be exploited to achieve remote code execution under certain circumstances. The vulnerability.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 align-items-start mt-4">
+                <a href="article.html" class="col-md-4">
+                  <img src="assets/images/php.png" class="img-fluid rounded" alt="php">
+                </a>
+                <div class="col-md-8">
+                  <div class="card-body py-0 padd-md-0">
+                    <a href="article.html" class="card-title fs-17 text-2B384E w-90 d-block">New PHP Vulnerability Exposes Windows Servers to Remote Code Execution</a>
+                    <div class="d-flex py-2">
+                      <div class="d-flex align-items-center">
+                          <i class="fas fa-calendar text-secondary fs-14"></i>
+                          <span class="fs-14 text-secondary ms-1">Jun 07, 2024</span>
+                      </div>
+                      <div class="ms-4 fs-14 text-secondary">
+                          Vulnerability / Programming
+                      </div>
+                    </div>
+                    <p class="card-text fs-14 text-secondary w-90">Details have emerged about a new critical security flaw impacting PHP that could be exploited to achieve remote code execution under certain circumstances. The vulnerability.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row g-0 align-items-start mt-4">
+                <a href="article.html" class="col-md-4">
+                  <img src="assets/images/php.png" class="img-fluid rounded" alt="php">
+                </a>
+                <div class="col-md-8">
+                  <div class="card-body py-0 padd-md-0">
+                    <a href="article.html" class="card-title fs-17 text-2B384E w-90 d-block">New PHP Vulnerability Exposes Windows Servers to Remote Code Execution</a>
+                    <div class="d-flex py-2">
+                      <div class="d-flex align-items-center">
+                          <i class="fas fa-calendar text-secondary fs-14"></i>
+                          <span class="fs-14 text-secondary ms-1">Jun 07, 2024</span>
+                      </div>
+                      <div class="ms-4 fs-14 text-secondary">
+                          Vulnerability / Programming
+                      </div>
+                    </div>
+                    <p class="card-text fs-14 text-secondary w-90">Details have emerged about a new critical security flaw impacting PHP that could be exploited to achieve remote code execution under certain circumstances. The vulnerability.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-25 d-md-block d-none">
+            <div class=" mt-4">
+                <p id="sidebar-text" class="fw-bold text-2B384E fs-5">Trending News</p>
+                <a href="article.html" class="d-flex mt-4">
+                    <img src="assets/images/net.png" alt="net">
+                    <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                </a>
+                <a href="article.html" class="d-flex mt-4">
+                    <img src="assets/images/net.png" alt="net">
+                    <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                </a>
+                <a href="article.html" class="d-flex mt-4">
+                    <img src="assets/images/net.png" alt="net">
+                    <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                </a>
+                <a href="article.html" class="d-flex mt-4">
+                    <img src="assets/images/net.png" alt="net">
+                    <p class="ms-2 text-576688 fs-14 underline">Chinese State-Backed Cyber Espionage Targets Southeast Asian Government</p>
+                </a>
+
+            </div>
+        </div>
+</main>
+<div class="container my-5">
+  <div class="subscribe-section">
+      <h2>Get Latest News in Your Inbox!</h2>
+      <p class="w-50 w-md-100 mx-auto py-4">Get the latest news, expert insights, exclusive resources, and strategies from industry leaders – all for free.</p>
+      <form class="row g-0 justify-content-center ">
+          <div class="col-auto position-relative w-50 w-md-100">
+              <input type="email" class="form-control" placeholder="Your e-mail address" required>
+              <button type="submit" class="btn btn-primary position-absolute top-0 end-0">
+                  <i class="fa fa-arrow-right"></i>
+              </button>
+          </div>
+      </form>
+  </div>
+</div>
+<footer class="border-top border-gray pt-4 mt-5">
+  <div class="text-center">
+      <span class="fw-bold text-2B384E fs-5">Connect with us!</span>
+  </div>
+  <div class="container d-flex align-items-center justify-content-between mt-4">
+      <a href="#" class="text-center text-white">
+          <div class="bg-twitter d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+              <i class="fab fa-twitter"></i>
+          </div>
+          <div class="text-secondary d-none d-md-block">221,153 followers</div>
+      </a>
+      <a href="#" class="text-center text-white">
+          <div class="bg-linkedin d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+              <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="text-secondary d-none d-md-block">221,153 followers</div>
+      </a>
+      <a href="#" class="text-center text-white">
+          <div class="bg-youtube d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+              <i class="fab fa-youtube"></i>
+          </div>
+          <div class="text-secondary d-none d-md-block">221,153 followers</div>
+      </a>
+      <a href="#" class="text-center text-white">
+          <div class="bg-instagram d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+              <i class="fab fa-instagram"></i>
+          </div>
+          <div class="text-secondary d-none d-md-block">221,153 followers</div>
+      </a>
+      <a href="#" class="text-center text-white">
+          <div class="bg-facebook d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+              <i class="fab fa-facebook"></i>
+          </div>
+          <div class="text-secondary d-none d-md-block">221,153 followers</div>
+      </a>
+      <a href="#" class="text-center text-white">
+          <div class="bg-telegram d-flex align-items-center justify-content-center mt-4 mb-2 mx-auto">
+              <i class="fab fa-telegram"></i>
+          </div>
+          <div class="text-secondary d-none d-md-block">221,153 followers</div>
+      </a>
+  </div>
+  <div id="footer-nav" class="container d-flex align-items-center justify-content-between mt-5">
+      <ul class="list-unstyled w-md-50">
+          <p class="fw-bold mb-0">Company</p>
+          <li class="mt-1"><a href="#" class="text-secondary">About THN</a></li>
+          <li class="mt-1"><a href="#" class="text-secondary">Advertise with us</a></li>
+          <li class="mt-1"><a href="contact.html" class="text-secondary">Contact</a></li>
+      </ul>
+      <ul class="list-unstyled w-md-50">
+          <p class="fw-bold mb-0">Pages</p>
+          <li class="mt-1"><a href="#" class="text-secondary">Webinars</a></li>
+          <li class="mt-1"><a href="#" class="text-secondary">Deals Store</a></li>
+          <li class="mt-1"><a href="#" class="text-secondary">Privacy Policy</a></li>
+      </ul>
+      <ul class="list-unstyled d-none d-md-block">
+          <p class="fw-bold mb-0">Deals</p>
+          <li class="mt-1"><a href="#" class="text-secondary">Hacking</a></li>
+          <li class="mt-1"><a href="#" class="text-secondary">Development</a></li>
+          <li class="mt-1"><a href="#" class="text-secondary">Android</a></li>
+      </ul>
+      <ul class="list-unstyled d-none d-md-block">
+          <li><a href="#" class="text-secondary"><i class="fa-solid fa-rss"></i> RSS Feeds</a></li>
+          <li class="mt-4"><a href="contact.html" class="text-secondary"><i class="fas fa-envelope"></i> Contact Us</a></li>
+      </ul>
+  </div>
+  <ul class="list-unstyled d-md-none d-block">
+      <li class="mt-4 ms-4"><a href="contact.html" class="text-secondary"><i class="fas fa-envelope"></i> Contact Us</a></li>
+  </ul>
+  <div class="text-left border-top border-gray container mt-3">
+      <span class="text-muted fs-13">Copyright © 2021 The Hacker News. All rights reserved.</span>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
